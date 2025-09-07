@@ -13,5 +13,5 @@ asyncio  # Built-in with Python
 pandas>=2.0.0
 numpy>=1.24.0
 python-dotenv>=1.0.0
-serpapi>=1.0.0  # For web search
-alpha-vantage>=2.3.0  # For stock data
+google-search-results>=2.4.2   # For web search
+alpha-vantage>=2.3.0           # For stock data
