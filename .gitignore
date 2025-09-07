@@ -1,0 +1,90 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+.env
+.env.*
+*.env
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+*.manifest
+*.spec
+
+# Logs & reports
+*.log
+*.out
+*.err
+*.pid
+coverage/
+.coverage
+.pytest_cache/
+.mypy_cache/
+
+# -------------------------
+# Streamlit
+# -------------------------
+.streamlit/
+.streamlit/secrets.toml
+
+# -------------------------
+# RAG / LLM / Vector DB
+# -------------------------
+# Chroma / FAISS / Weaviate / Milvus local storage
+chroma/
+chroma_db/
+vectorstore/
+db/
+*.sqlite
+*.db
+
+# Model checkpoints / Hugging Face cache
+models/
+checkpoints/
+*.bin
+*.pt
+*.ckpt
+hf_cache/
+transformers_cache/
+cache/
+
+# -------------------------
+# Datasets
+# -------------------------
+data/
+datasets/
+*.csv
+*.json
+*.parquet
+
+# -------------------------
+# IDEs and Editors
+# -------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# -------------------------
+# OS specific
+# -------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+research_data.db
+.env
